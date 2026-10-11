@@ -1,0 +1,21 @@
+{
+    "geode": "5.11.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081"
+    },
+    "id": "lliapctepx.password-lock",
+    "name": "Password Lock",
+    "version": "v1.0.0",
+    "developer": "LLIaPcTEPx",
+    "description": "Locks the game on startup and requires a 4-digit password.",
+    "settings": {
+        "password": {
+            "type": "string",
+            "name": "Password",
+            "description": "4-digit password to unlock the game, else you can't open the GD.",
+            "default": "0000"
+        }
+    }
+}
